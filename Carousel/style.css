@@ -16,6 +16,11 @@ body {
   display: none;
 }
 
+.carousel img {
+  height: 700px;
+  width: 100%;
+}
+
 .carousel-active {
   display: block;
 }
