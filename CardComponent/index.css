@@ -36,12 +36,12 @@ body {
 
 .component-body h2 {
   color: #05cbe9;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 0.5em;
 }
 
 .component-body > p {
-  line-height: 1.5;
+  line-height: 1.75;
   margin-bottom: 3em;
   font-size: 1.125rem;
 }
@@ -60,13 +60,30 @@ body {
 .component-data span {
   display: block;
   font-weight: bold;
+  font-size: 1.75rem;
 }
 
 .component-data button {
-  padding: 0.75em 2em;
+  padding: 0.5em 1.5em;
+  margin-left: 0.25em;
   font-size: 1.2rem;
   font-weight: bold;
   color: #111d4a;
   background-color: #05cbe9;
   border: none;
+  align-self: flex-end;
+}
+
+@media (min-width: 600px) {
+  .component-container {
+    flex-direction: row;
+  }
+
+  .component-img {
+    min-width: 30%;
+  }
+
+  .component-data {
+    margin-top: auto;
+  }
 }
